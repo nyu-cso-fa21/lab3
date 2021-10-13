@@ -27,4 +27,4 @@ tester_sol : $(SOLOBJS) $(TESTEROBJ)
 	$(GCC) $^ -o $@
 
 clean :
-	rm $(OBJS) tester tester_sol
+	rm -f $(OBJS) tester tester_sol
